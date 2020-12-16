@@ -1,4 +1,4 @@
-function detectSubDomain (url) {
+function detectDomain (url) {
     let partialDomain = url.split('.');
     let variants = ['com', 'org', 'co'];
     if (variants.includes(partialDomain[partialDomain.length - 2])) {
